@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Limpieza - Cyclone Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Cyclone</div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav>
+            <ul class="menu">
+                <li><a href="#contenido">Inicio</a></li>
+                <li>
+                    <a href="#">Productos a granel &#x25BC;</a>
+                    <ul class="submenu">
+                        <li><a href="#tabla-articulos">Catálogo</a></li>
+                        <li><a href="#formulario-contacto">Contacto</a></li>
+                    </ul>
+                </li>
+                <li><a href="Multi limp.pdf" download"> DESCARGAR PDF </li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contenido" class="content">
+            <h1>Bienvenido a Eco-Brisa </h1>
+            <p class="description">
+                Somos una tienda especializada en productos de calidad para el hogar trayendo tu propio envase te lo rellenamos y damos a un precio bajos. Nuestra misión es brindar
+                los mejores artículos con excelente atención y precios competitivos.
+            </p>
+            <div class="links">
+                <a href="#tabla-articulos" class="button">Ver Catálogo de Productos</a>
+                <a href="#formulario-contacto" class="button">Formulario de Contacto</a>
+            </div>
+        </section>
+
+
+        <section id="tabla-articulos" class="content" style="margin-top: 3rem;">
+            <h2>Catálogo de Productos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>imagen</th>
+                        <th>Productos variados</th>
+                        <th>Precio </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/producto_01.png" alt="Producto 1" /></td>
+                        <td>Limpiador automotriz</td>
+                        <td>38.99Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img1.jpg" alt="Producto 2" /></td>
+                        <td>Jabon Líquido</td>
+                        <td>5.49Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img4.jpg" alt="Producto 3" /></td>
+                        <td>Renovador de llantas</td>
+                        <td>16.99Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img5.jpg" alt="Producto 4" /></td>
+                        <td>Lavandina</td>
+                        <td>21.30Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img.jpg" alt="Producto 5" /></td>
+                        <td>Esponja para Limpieza</td>
+                        <td>5.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img6.jpg" alt="Producto 6" /></td>
+                        <td>Quita sarro</td>
+                        <td>13.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img13.jpg" alt="Producto 7" /></td>
+                        <td>Limpia vidrios</td>
+                        <td>9.50Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img14.jpg" alt="Producto 8" /></td>
+                        <td>Limpia pisos</td>
+                        <td>11.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img2.jpg" alt="Producto 9" /></td>
+                        <td>Suavisante de ropa</td>
+                        <td>6.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img7.jpg" alt="Producto 10" /></td>
+                        <td>Detergente de ropa </td>
+                        <td>14.60Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img9.jpg" alt="Producto 11" /></td>
+                        <td>Limpiador de Pisos</td>
+                        <td>17.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img8.jpg" alt="Producto 12" /></td>
+                        <td>Shampoo</td>
+                        <td>20.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img15.jpg" alt="Producto 13" /></td>
+                        <td>Citronel</td>
+                        <td>8.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img3.jpg" alt="Producto 14" /></td>
+                        <td>Lava vajillas</td>
+                        <td>10.00Bs</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img10.jpg" alt="Producto 15" /></td>
+                        <td>Limpiador de Baños</td>
+                        <td>26.00Bs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario-contacto" class="content" style="margin-top: 3rem;">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br />
+                <input type="text" id="nombre" name="nombre" required
+                    style="width:100%;padding:0.5rem;margin-bottom:1rem;border-radius:4px;border:1px solid #ccc;" /><br />
+
+                <label for="email">Correo Electrónico:</label><br />
+                <input type="email" id="email" name="email" required
+                    style="width:100%;padding:0.5rem;margin-bottom:1rem;border-radius:4px;border:1px solid #ccc;" /><br />
+
+                <label for="mensaje">Mensaje:</label><br />
+                <textarea id="mensaje" name="mensaje" rows="4" required
+                    style="width:100%;padding:0.5rem;margin-bottom:1rem;border-radius:4px;border:1px solid #ccc;"></textarea><br />
+
+                <button type="submit"
+                    style="background-color:#00c5cc;color:white;padding:0.6rem 1.5rem;border:none;border-radius:25px;cursor:pointer;transition:background-color 0.3s ease;">
+                    Enviar
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>📍 Ubicación: Calle Paurito Plan 3000, Santa Cruz, Bolivia</p>
+            <p>📞 Teléfono: +591 443645678</p>
+            <p>📱 WhatsApp: <a href="https://wa.me/59112345678" target="_blank" rel="noopener noreferrer">+591 123
+                    45678</a></p>
+        </div>
+        <p>© 2025 Cyclone. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
